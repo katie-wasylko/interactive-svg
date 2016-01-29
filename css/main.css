@@ -17,6 +17,10 @@ html {
 }
 
 .left-ear {
+
+}
+
+.bear:hover .left-ear {
   
 }
 
@@ -24,10 +28,26 @@ html {
 
 }
 
-.left-eye {
+.bear:hover .left-ear {
 
 }
 
+.left-eye {
+  animation: translate 1s linear infinite alternate;
+}
+
 .right-eye {
+  animation: translate 1s linear infinite alternate;
+}
+
+@keyframes translate {
+
+  from {
+    transform: translate(-1em ,0);
+  }
+
+  to {
+    transform: translate(1em);
+  }
 
 }
