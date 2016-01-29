@@ -17,19 +17,21 @@ html {
 }
 
 .left-ear {
-
+  transform: translate(0,0em);
+  transition: all 1s;
 }
 
 .bear:hover .left-ear {
-  
+  transform: translate(0,-1em);
 }
 
 .right-ear {
-
+  transform: translate(0,0em);
+  transition: all 1s;
 }
 
-.bear:hover .left-ear {
-
+.bear:hover .right-ear {
+  transform: translate(0,-1em);
 }
 
 .left-eye {
@@ -43,7 +45,7 @@ html {
 @keyframes translate {
 
   from {
-    transform: translate(-1em ,0);
+    transform: translate(-1em);
   }
 
   to {
