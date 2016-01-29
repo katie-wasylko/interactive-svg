@@ -17,21 +17,21 @@ html {
 }
 
 .left-ear {
-  transform: translate(0,0em);
+  transform: translate(0, 0);
   transition: all 1s;
 }
 
 .bear:hover .left-ear {
-  transform: translate(0,-1em);
+  transform: translate(0, -1em);
 }
 
 .right-ear {
-  transform: translate(0,0em);
+  transform: translate(0, 0);
   transition: all 1s;
 }
 
 .bear:hover .right-ear {
-  transform: translate(0,-1em);
+  transform: translate(0, -1em);
 }
 
 .left-eye {
